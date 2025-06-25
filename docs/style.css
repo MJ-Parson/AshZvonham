@@ -11,3 +11,7 @@
     transform: none;
     visibility: visible;
 }
+
+.card {
+    width: 33%
+}
