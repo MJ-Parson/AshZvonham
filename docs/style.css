@@ -13,13 +13,13 @@
 }
 
 nav {
-    padding-bottom: 15px;
+    
 }
 
 .testimonial-card {
-    background: linear-gradient(145deg, #f3f4f6, #ffffff);
+    background: linear-gradient(145deg, #343a40, #000);
     border-radius: 20px;
-    box-shadow: 8px 8px 16px #d1d9e6, -8px -8px 16px #ffffff;
+    box-shadow: 8px 8px 16px #343a40, -8px -8px 16px #000;
     transition: transform 0.3s ease;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -66,4 +66,46 @@ nav {
 
 body, html {
     height: 100%;
+}
+
+@font-face {
+    font-family: BookmanOld;
+    src: url('./fonts/bookmanoldstyle_bolditalic.ttf');
+}
+
+@font-face {
+    font-family: RoutineVariableThin;
+    src: url('./fonts/RoutineVariableThin-Thin.ttf')
+}
+
+.title {
+    font-size: 60px;
+    font-family: BookmanOld;
+    color: #B36CFF;
+}
+
+.lead {
+    font-family: RoutineVariableThin;
+    color: #fabcff;
+}
+
+p {
+    font-family: BookmanOld;
+    color: #d9ffff;
+}
+
+.text-muted {
+    font-family: BookmanOld;
+    color: #d9ffff;
+}
+
+h2 {
+    font-family: BookmanOld;
+    color: #B36CFF;
+}
+
+footer {
+    background-color: #343a40;
+    color: #d9ffff;
+    padding: 3rem 0;
 }
