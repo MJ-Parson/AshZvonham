@@ -65,7 +65,11 @@ nav {
 }
 
 body, html {
-    height: 100%;
+    height: 100vh;
+}
+
+.bg-image {
+    background-image: url("./images/watercolor-autumn-leaves-background.avif");
 }
 
 @font-face {
