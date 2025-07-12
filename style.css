@@ -29,6 +29,15 @@ nav {
     transform: translateY(5px);
 }
 
+.info-card {
+    background: linear-gradient(145deg, #343a40, #000);
+    border-radius: 20px;
+    box-shadow: 8px 8px 16px #343a40, -8px -8px 16px #000;
+    transition: transform 0.3s ease;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 .quote-icon {
     font-size: 4rem;
     color: #6366f1;
