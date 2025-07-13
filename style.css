@@ -12,9 +12,6 @@
     visibility: visible;
 }
 
-nav {
-    
-}
 
 .testimonial-card {
     background: linear-gradient(145deg, #343a40, #000);
@@ -77,8 +74,10 @@ body, html {
     height: 100vh;
 }
 
+
+
 .bg-image {
-    background-image: url("./images/watercolor-autumn-leaves-background.avif");
+    background: linear-gradient(145deg, #b36cff, #fabcff, #d9ffff);
 }
 
 @font-face {
